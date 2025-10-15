@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Bitcoin, Menu, X } from "lucide-react";
-import { Page } from "../../App";
+import type { Page } from "../../types";
 
 function Navbar({ onNavigate }: { onNavigate: (page: Page) => void }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

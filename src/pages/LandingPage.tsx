@@ -34,7 +34,7 @@ import {
   Loader2,
 } from "lucide-react";
 import type { Page } from "../types";
-import Hero from "../components/landing/Hero";
+// import Hero from "../components/Hero";
 
 export function CustomConnectWallet({ onClick }: { onClick: () => void }) {
   return (
